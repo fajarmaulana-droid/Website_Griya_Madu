@@ -1,0 +1,7 @@
+{
+  "name": "griya-madu-user-prototype",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/user-flow.test.cjs"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login | Griya Madu</title>
+  <link rel="stylesheet" href="style.css"><script defer src="product.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <nav class="nav"><div class="container navin"><a class="brand" href="index.html"><span class="brandmark">GM</span><span>Griya Madu<small>SINGOSARI</small></span></a><a class="navbtn" href="index.html">Kembali ke toko</a></div></nav>
+  <main class="container"><section class="panel loginBox">
+    <div class="brandmark" style="margin:0 auto 14px">GM</div><div class="eyebrow">Selamat datang</div>
+    <h1 style="font:700 29px Georgia,serif">Login Griya Madu</h1><p class="muted">Masuk menggunakan username atau email yang sudah terdaftar.</p>
+    <form class="form" id="loginForm" style="text-align:left;margin-top:20px">
+      <label>Username atau email<input id="loginUsername" autocomplete="username" required placeholder="Username atau email"></label>
+      <label>Kata sandi<input id="loginPassword" type="password" autocomplete="current-password" required placeholder="Masukkan kata sandi"></label>
+      <button class="btn primary" type="submit">Masuk</button>
+      <p id="loginError" class="muted hidden" role="alert" style="color:#a33424;margin:0">Username atau kata sandi tidak sesuai.</p>
+      <p id="loginSuccess" class="muted hidden" role="status" style="color:#397345;margin:0">Akun berhasil dibuat. Silakan masuk.</p>
+    </form>
+    <div class="card" style="text-align:left;margin-top:18px;padding:13px">
+      <b>Akun demo</b><div class="muted" style="font-size:12px;margin-top:6px">Admin: <code>admin</code> / <code>admin123</code><br>User: <code>user</code> / <code>user123</code></div>
+    </div>
+    <div class="row" style="justify-content:center;margin-top:15px"><a class="btn light" href="register.html">Buat akun</a><a class="btn light" href="forgot-password.html">Lupa kata sandi?</a></div>
+    <p class="muted" style="font-size:11px;margin-top:16px">Akun tersimpan hanya di browser ini. Login dan pemulihan kata sandi belum memakai server atau verifikasi email.</p>
+  </section></main>
+  <footer class="footer"><div class="container footerIn"><span>Griya Madu Singosari</span><span>Login prototype</span></div></footer>
+</body>
+</html>
